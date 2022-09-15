@@ -1,0 +1,31 @@
+@import '../../styles/Variable.scss';
+
+header {
+    min-height: 72px;
+    background-color: $white;
+    box-shadow: 0 5px 5px rgba($black, .2);
+    position: relative;
+    z-index: 1;
+
+
+
+    ul {
+        min-height: 72px;
+
+        li {
+            &:last-child {
+                a {
+                    background-color: rgb(191, 215, 50);
+                    border-radius: 20px;
+                    padding: 0 20px;
+                }
+            }
+
+            a {
+                color: $gray-2;
+                text-decoration: none;
+                line-height: 42px;
+            }
+        }
+    }
+}

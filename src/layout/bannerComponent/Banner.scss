@@ -1,0 +1,28 @@
+.component-Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        text-align: center;
+        min-width: 100%;
+    }
+}
+
+.component-Banner-Hero {
+    @extend .component-Banner;
+    height: 100vh;
+    background-color: aqua;
+
+}
+
+.component-Banner-small {
+    @extend .component-Banner;
+    height: 600px;
+    margin: 0 auto;
+    background-color: green;
+
+    div {
+        text-align: left;
+    }
+}

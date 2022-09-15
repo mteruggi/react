@@ -1,0 +1,31 @@
+@import '../../styles/Variable.scss';
+
+footer.App-footer {
+    .footer-bottom {
+        background-color: $black;
+        height: 50px;
+
+        ul {
+            min-height: 50px;
+            justify-content: space-around;
+
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .footer-top {
+        background-color: $gray-1;
+        height: 156px;
+    }
+
+
+
+
+
+
+}
